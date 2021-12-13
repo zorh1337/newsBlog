@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin-left: 0;
@@ -111,9 +112,6 @@ body {
 }
 
 .top-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -152,6 +150,14 @@ body {
 
 .city__text {
   margin: 0px 9px 0px 0px;
+  /* Style for "Москва" */
+  color: #448ccb;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: -0.32px;
+  border-bottom: 2px dotted #448ccb;
 }
 
 .city__icon {
@@ -163,12 +169,48 @@ body {
 
 .top-menu__date {
   margin: 0px 32px 0px 0px;
+  height: 16px;
+  color: #91919f;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
 }
 
 .top-menu__time {
+  display: block;
   margin: 0px 31px 0px 0px;
+  margin: 0px 32px 0px 0px;
+  color: #91919f;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+}
+
+.top-menu__time::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/img/nav/clock.png") center no-repeat;
+  margin: 0px 10px 0px 0px;
 }
 
 .top-menu__weather {
+  display: block;
   margin: 0px 47px 0px 0px;
+  margin: 0px 32px 0px 0px;
+  height: 16px;
+  color: #91919f;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  padding: 0px 0px 0px 40px;
+}
+
+.search__textbox {
+  width: 320px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #ebebeb;
+  opacity: 0.6;
 }
