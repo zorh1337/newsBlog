@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin-left: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  margin: 0;
+  height: 0;
+  font-family: "Arial MT";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1030px;
+}
+
+.header {
+  width: 100%;
+  background-color: #00122f;
+  padding: 0 15px;
+  height: 55px;
+  margin: 0px 0px 40px 0px;
+}
+
+.header__text {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  letter-spacing: -0.32px;
+  text-decoration: underline;
+}
+
+.header__time {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.32px;
+  float: right;
+}
+
+.top-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-menu__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-menu__logo {
+  margin: 0px 8px 0px 0px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.top-menu__title {
+  margin: 0px 62px 0px 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.city__text {
+  margin: 0px 9px 0px 0px;
+}
+
+.city__icon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0px 50px 0px 0px;
+}
+
+.top-menu__date {
+  margin: 0px 32px 0px 0px;
+}
+
+.top-menu__time {
+  margin: 0px 31px 0px 0px;
+}
+
+.top-menu__weather {
+  margin: 0px 47px 0px 0px;
+}
