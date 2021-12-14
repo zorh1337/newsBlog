@@ -77,6 +77,11 @@ body {
   font-family: "Arial MT";
 }
 
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1030px;
@@ -284,11 +289,10 @@ body {
 }
 
 .content__left-colomn {
-  padding: 27px 18px 0 18px;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 25%;
           flex: 0 1 25%;
-  background-color: #7e1111;
+  background-color: #ffffff;
 }
 
 .content__middle-colomn {
@@ -310,4 +314,84 @@ body {
 
 .right-colomn__ad:first-child {
   margin: 0px 0px 20px 0px;
+}
+
+.left__title {
+  padding: 0px 0px 0px 18px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 22px 0px 19px 18px;
+}
+
+.left__item {
+  padding: 20px 0px 0px 16px;
+}
+
+.left__text {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.35px;
+  padding: 0px 0px 11px 0px;
+}
+
+.left__props {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left__link {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  opacity: 0.8;
+  color: #91919f;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: -0.24px;
+}
+
+.left__time-comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+.left__time {
+  padding: 0px 0px 0px 16px;
+  background: url("/img/Новости дня/clock.png") 0px 2px no-repeat;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+.left__comments {
+  padding: 0px 0px 0px 16px;
+  background: url("/img/Новости дня/comments.png") 0px 2px no-repeat;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+.left__button {
+  text-align: center;
+}
+
+.left__button .left__click {
+  margin: 63px 0px 25px 0px;
+  width: 177px;
+  height: 45px;
+  border-radius: 23px;
+  border: 1px solid #448ccb;
 }
