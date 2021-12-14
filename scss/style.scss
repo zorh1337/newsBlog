@@ -210,7 +210,7 @@ align-self: start;
 .content__middle-colomn {
 	
 	flex: 0 1 48%; 
-	background-color: #21a121;
+	
 }
 .content__right-colomn {
 	
@@ -294,7 +294,7 @@ letter-spacing: -0.24px;
 .left__button{
 	text-align: center;
 	.left__click{
-	margin: 63px 0px 25px 0px;
+	margin: 38px 0px 25px 0px;
 	width: 177px;
 	height: 45px;
 	border-radius: 23px;
@@ -303,3 +303,151 @@ letter-spacing: -0.24px;
 	
 }
 //==========================================================================================
+//!middle colomn
+.middle__section {
+	background: url('/img/центр/layer-2.png') center /100% 100%no-repeat,url('/img/центр/castle.png') center/100% 100% no-repeat;
+	
+	
+}
+.middle__container{
+	padding: 0 18px;
+}
+
+.middle__link {
+	padding: 87px 0px 0px 0px;
+	a{
+		color: #ffffff;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 30px;
+		letter-spacing: -0.24px;}
+	
+}
+.middle__title {
+	padding: 18px 94px 14px 0px;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: -0.6px;
+	
+}
+.middle__date-time {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: -0.24px;
+	padding: 0px 0px 33px 0px;
+}
+
+.middle__date {
+	display: inline-block;
+	
+	padding: 0px 20px 0px 0px;
+	
+	
+}
+.middle__time {
+	
+	
+	display: inline-block;
+	&::before{
+		content: '';
+		display: inline-block;
+		width: 9px;
+		height: 9px;
+		background: url('/img/центр/clock-white.png') center/100% 100%  no-repeat;
+		margin: 0px 5px 0px 0px;
+		
+	}
+	
+}
+.midde__flex{
+	img{
+		width: 100%;
+	}
+	
+	margin: 20px 0px 0px 0px;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.middle__colomn1{
+	flex: 0 1 48%;
+}
+.middle__colomn2{
+	flex: 0 1 48%;
+}
+
+.middle__img {
+	margin: 0px 0px 9px 0px;
+	
+}
+.middle__text {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: -0.28px;
+	font-family: "Arial - Bold MT";
+	margin: 0px 0px 0px 0px;
+	
+}
+.middle__props {
+	display: flex;
+	justify-content: start;
+	gap: 15px;
+	align-items: center;
+	margin: 0px 0px 10px 0px;
+	
+}
+.middle__links {
+	opacity: 0.8;
+	color: #91919f;
+	font-family: "Arial MT";
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: -0.24px;
+
+}
+.middle__props-time {
+	color: #000000;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: -0.24px;
+	
+	
+	
+	&::before{
+		content: '';
+		display: inline-block;
+		margin: 0px 5px 0px 0px;
+		width: 11px;
+		height: 11px;
+		
+		background: url('/img/центр/clock.png') 0px 0px no-repeat;
+		
+		
+		
+	}
+}
+.middle__props-comments {
+	color: #000000;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: -0.24px;
+	
+	&::before{
+		content: '';
+		display: inline-block;
+		margin: 0px 5px 0px 0px;
+		width: 11px;
+		height: 11px;
+		
+		background: url('/img/центр/comments.png') 0px 0px no-repeat;
+		
+
+	}
+}
