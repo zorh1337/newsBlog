@@ -286,6 +286,10 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0px 0px 0px 0px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 .content__left-colomn {
@@ -299,6 +303,7 @@ h2 {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 48%;
           flex: 0 1 48%;
+  margin: 0px 0px 20px 0px;
 }
 
 .content__right-colomn {
@@ -388,7 +393,7 @@ h2 {
 }
 
 .left__button .left__click {
-  margin: 38px 0px 25px 0px;
+  margin: 40px 0px 45px 0px;
   width: 177px;
   height: 45px;
   border-radius: 23px;
@@ -549,4 +554,299 @@ h2 {
   width: 11px;
   height: 11px;
   background: url("/img/центр/comments.png") 0px 0px no-repeat;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  margin: 0px 0px 60px 0px;
+}
+
+.bottom__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 58%;
+          flex: 1 1 58%;
+  background: url("/img/низ/фон.png") center/100% 100% no-repeat, url("/img/низ/botomBG.png") center/100% 100% no-repeat;
+}
+
+.bottom__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42%;
+          flex: 1 1 42%;
+}
+
+.bottom__left-container {
+  padding: 107px 87px 43px 20px;
+}
+
+.bottom__link {
+  margin: 0px 0px 30px 0px;
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.24px;
+}
+
+.bottom__main-text {
+  margin: 0px 0px 20px 0px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: -0.6px;
+}
+
+.bottom__date {
+  display: inline-block;
+  padding: 0px 0px 30px 0px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.24px;
+}
+
+.bottom__time {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.24px;
+}
+
+.bottom__text {
+  opacity: 0.7;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+}
+
+.bottom__right-container {
+  padding: 0 20px;
+}
+
+.bottom__right {
+  background: #ffffff;
+}
+
+.right__title {
+  color: #000000;
+  font-size: 20px;
+  padding: 30px 20px;
+  border-bottom: 1px solid #ebebeb;
+  font-weight: bold;
+}
+
+.right__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right__item {
+  margin: 30px 0px 0px 0px;
+}
+
+.right__item-title {
+  color: #000000;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.32px;
+  font-weight: bold;
+}
+
+.right__item-props {
+  margin: 15px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: center;
+  gap: 15px;
+}
+
+.right__item-link {
+  opacity: 0.8;
+  color: #91919f;
+  font-size: 12px;
+  letter-spacing: -0.24px;
+}
+
+.right__item-time {
+  color: #000000;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: -0.24px;
+}
+
+.right__item-time::before {
+  content: '';
+  margin: 0px 5px 0px 0px;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url("/img/низ/blue_clock.png") center/100% 100% no-repeat;
+}
+
+.right__item-comments {
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: -0.24px;
+}
+
+.right__item-comments::before {
+  content: '';
+  display: inline-block;
+  margin: 0px 5px 0px 0px;
+  width: 11px;
+  height: 11px;
+  background: url("/img/низ/comments.png") 0px 1px/100% 100% no-repeat;
+}
+
+.footer {
+  background-color: #00122f;
+}
+
+.footer__main {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__container {
+  padding: 60px 0px 0px 0px;
+  margin: 0 auto;
+  max-width: 1030px;
+}
+
+.footer__list, .list {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer__list li, .list li {
+  padding: 0px 0px 20px 0px;
+}
+
+.footer__listflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+
+.footer__logotype {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 8px;
+  margin: 00px 20px 0px 0px;
+}
+
+.footer__title {
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: -0.28px;
+}
+
+.footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  margin: 0px 0px 45px 0px;
+}
+
+.footer__icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.footer__icon:nth-child(1) {
+  background: url("/img/footer/vk.png") center no-repeat;
+}
+
+.footer__icon:nth-child(2) {
+  background: url("/img/footer/fb.png") center no-repeat;
+}
+
+.footer__icon:nth-child(3) {
+  background: url("/img/footer/twitter.png") center no-repeat;
+}
+
+.footer__icon:nth-child(4) {
+  background: url("/img/footer/instagram.png") center no-repeat;
+}
+
+.footer__phone {
+  padding: 0px 0px 25px 0px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer__phone::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("/img/footer/call-answer.png") 100% 100% no-repeat;
+  margin-right: 20px;
+}
+
+.footer__mail {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer__mail::before {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 11px;
+  background: url("/img/footer/mail.png") 100% 100% no-repeat;
+  margin-right: 20px;
+}
+
+.footer_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__rights {
+  text-align: center;
+}
+
+.footer__right-text {
+  opacity: 0.4;
+  color: #ffffff;
+  line-height: 22px;
+  border-top: 1px solid #26364e;
+  padding: 20px;
 }
